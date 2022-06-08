@@ -1,6 +1,8 @@
 import javax.swing.*;
+import java.awt.*;
 
 public class MyFrame extends JFrame {
+
     MyFrame(){
         this.add(new MyPannel());
         this.setTitle("MyPlants");
